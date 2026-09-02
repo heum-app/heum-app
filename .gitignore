@@ -1,0 +1,99 @@
+# ============================
+# Node / JS
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log
+expo-error.log
+*.log
+
+# ============================
+# Expo / React Native
+# ============================
+.expo/
+.expo-shared/
+.expo/web/cache
+.expo/android
+.expo/ios
+.expo-router/
+.expo/devices.json
+
+dist/
+web-build/
+expo-env.d.ts
+.expo-bundle/
+.expo-packager-cache/
+
+# ============================
+# Bundler / Cache
+# ============================
+# Metro
+.metro-health-check*
+metro-cache/
+.expo-packager-cache/
+
+# Babel / TS
+*.tsbuildinfo
+
+# ============================
+# Native Build (RN)
+# ============================
+ios/
+android/
+.kotlin/
+
+# ============================
+# Environment variables
+# ============================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# ============================
+# Certificates & Keys
+# ============================
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+*.orig.*
+
+# ============================
+# macOS / OS-level
+# ============================
+.DS_Store
+
+# ============================
+# IDE
+# ============================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ============================
+# Misc
+# ============================
+.tmp/
+cache/
+coverage/
+# typescript
+*.tsbuildinfo
+
+# ============================
+# ETC
+# ============================
+.history
+agents.md
+CLAUDE.md
+skills/*
